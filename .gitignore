@@ -1,0 +1,16 @@
+node_modules
+yotta_modules
+yotta_targets
+pxt_modules
+built
+typings
+tmp
+temp
+build
+*.tgz
+*.db
+*.suo
+*.log
+.vscode/*
+package-lock.json
+.DS_Store
