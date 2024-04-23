@@ -1,0 +1,32 @@
+{
+    "name": "aspara-smart-grower",
+    "version": "10.1.25",
+    "description": "The aspara micro:bit MakeCode extension, for micro:bit (V2) only.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "bluetooth": "*"
+    },
+    "files": [
+        "enums.d.ts",
+        "shims.d.ts",
+        "debug.h",
+        "aspara-smart-grower-service.cpp",
+        "aspara-smart-grower-service.h",
+        "aspara-smart-grower.cpp",
+        "aspara-smart-grower.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "icon": "icon.png",
+    "disablesVariants": [
+        "mbdal"
+    ]
+}
