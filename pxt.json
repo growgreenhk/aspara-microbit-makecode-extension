@@ -1,6 +1,6 @@
 {
     "name": "aspara-smart-grower",
-    "version": "10.1.25",
+    "version": "10.1.26",
     "description": "The aspara micro:bit MakeCode extension, for micro:bit (V2) only.",
     "license": "MIT",
     "dependencies": {
