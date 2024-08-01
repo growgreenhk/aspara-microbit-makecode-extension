@@ -53,7 +53,7 @@ namespace asparaSmartGrower {
    * Start the aspara Smart Grower service
    * @param id the microbit ID
    */
-  //% block="start aspara Smart Grower service with microbit ID (6 digits): %id"
+  //% block="start aspara service with 5 characters ID [A-Z][0-9]: %id"
   //% weight=99
   //% shim=asparaSmartGrower::startAsparaSmartGrowerService
   export function startAsparaSmartGrowerService(id: string): void {
