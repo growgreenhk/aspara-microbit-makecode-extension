@@ -28,7 +28,7 @@ This is the micro:bit MakeCode Extension for controlling the aspara Smart Grower
 
 ## How to use the extension
 ### On start - assign an unique microbit ID for the project
-* Add <B>"start aspara Smart Grower service with microbit ID"</B> from the aspara Smart Grower extension to the block <B>"on start"</B>
+* Add <B>"start aspara service with 5 characters ID [A-Z][0-9]"</B> from the aspara Smart Grower extension to the block <B>"on start"</B>
 * Enter an ID for this project.
 * E.g.
 
