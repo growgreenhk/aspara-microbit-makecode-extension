@@ -75,7 +75,7 @@ let month = 0
 let Year = 0
 let date_time: Buffer = null
 basic.showIcon(IconNames.Heart)
-asparaSmartGrower.startAsparaSmartGrowerService(22582)
+asparaSmartGrower.startAsparaSmartGrowerService("12345")
 loops.everyInterval(1000, function () {
     get_date_time()
     toggle_indicators()

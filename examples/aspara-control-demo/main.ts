@@ -34,7 +34,7 @@ input.onGesture(Gesture.Shake, function () {
     asparaSmartGrower.setLEDlight(LED_TYPE.white, 0)
 })
 basic.showIcon(IconNames.Fabulous)
-asparaSmartGrower.startAsparaSmartGrowerService(22852)
+asparaSmartGrower.startAsparaSmartGrowerService("12345")
 basic.forever(function () {
 	
 })

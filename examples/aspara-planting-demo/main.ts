@@ -86,7 +86,7 @@ let hour = 0
 let second = 0
 basic.showIcon(IconNames.TShirt)
 Initialization()
-asparaSmartGrower.startAsparaSmartGrowerService(22582)
+asparaSmartGrower.startAsparaSmartGrowerService("12345")
 loops.everyInterval(1000, function () {
     get_datetime()
     light_program()
